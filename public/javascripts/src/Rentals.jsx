@@ -13,7 +13,7 @@ module.exports = React.createClass({
     componentDidMount: function() {
 
     //request data from serer and set state with data
-        request('http://localhost:3000/api/rentals', function(error, response, body) {
+        request('https://rob-rentals.herokuapp.com/api/rentals', function(error, response, body) {
             var result = JSON.parse(body);
             if (this.isMounted()) {
                 this.setState(result.data);
