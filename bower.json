@@ -1,0 +1,24 @@
+{
+  "name": "Rental Listings",
+  "version": "0.0.0",
+  "authors": [
+    "Robert Shamshoian <robertshamshoian@gmail.com>"
+  ],
+  "description": "A list of rentals in the bay area",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/libraries/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.3"
+  }
+}
